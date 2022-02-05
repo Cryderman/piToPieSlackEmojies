@@ -5,7 +5,7 @@ let pie = ':pie:'
 
 
 function getNDigitsOfPiAsPie(n) {
-    return pi.reduce((acc, cur, idx) => {
+    let dirty = pi.reduce((acc, cur, idx) => {
         if (n === 1) return [`( ${pie} ${pie} ${pie} )`]
         if (n === 2) return [`( ${pie} ${pie} ${pie} ).( ${pie} )`]
         if (idx > n - 2) {
@@ -19,10 +19,11 @@ function getNDigitsOfPiAsPie(n) {
 
         return acc
     }, [[`( ${pie} ${pie} ${pie} )`, '.']])
+    return dirty.join('').replace(',', '')
 }
 
 module.exports = { getNDigitsOfPiAsPie }
 
 // let piPie = getNDigitsOfPiAsPie(5)
-//
+// //
 // console.log(piPie.join('').replace(',', ''))
