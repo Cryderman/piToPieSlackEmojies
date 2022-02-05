@@ -1,6 +1,6 @@
 {
   "name": "pi-to-pie-slack-emoji",
-  "version": "1.0.2",
+  "version": "100.0.0",
   "description": "This is the dumbest thing I have ever done",
   "main": "pi.js",
   "scripts": {
