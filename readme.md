@@ -1,5 +1,5 @@
-#There is no reason to ever use this.
-###I just wanted to learn to publish to npm
+# There is no reason to ever use this.
+### I just wanted to learn to publish to npm
 #### see code below on how to use it
 
 ```javascript
