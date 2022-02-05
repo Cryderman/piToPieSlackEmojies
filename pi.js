@@ -21,8 +21,8 @@ function getNDigitsOfPiAsPie(n) {
     }, [[`( ${pie} ${pie} ${pie} )`, '.']])
 }
 
-export default getNDigitsOfPiAsPie
+module.exports = { getNDigitsOfPiAsPie }
 
-let piPie = getNDigitsOfPiAsPie(5)
-
-console.log(piPie.join('').replace(',', ''))
+// let piPie = getNDigitsOfPiAsPie(5)
+//
+// console.log(piPie.join('').replace(',', ''))
